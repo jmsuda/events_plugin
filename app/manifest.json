@@ -1,0 +1,22 @@
+{
+  "name": "Test",
+  "description": "Chaordic Plugin",
+  "version": "1",
+  "background":{
+    "scripts":["background.js"]
+  },
+  "permissions": [
+   "<all_urls>", "webRequest", "webRequestBlocking", "*://lojaspompeia.com.br/*"
+  ],
+  "browser_action": {
+    "default_title": "Chaordic Integra Plugin",
+    "default_icon": "images/icon-19.png"
+  },
+  // "content_scripts": [{
+  //   "js": ["scripts/searchEvents.js"],
+  //   "matches": ["*://*/*"]
+  // }],
+
+  "manifest_version": 2,
+  "devtools_page": "devtools.html"
+}
